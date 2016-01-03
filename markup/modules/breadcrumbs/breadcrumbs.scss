@@ -1,0 +1,22 @@
+.breadcrumbs{
+  margin-bottom:28px;
+}
+.page-breadcrumb__list{
+  margin-bottom:20px;
+}
+.page-breadcrumb__item{
+  display: inline-block;
+}
+.page-breadcrumb__link{
+  color: #333;
+  text-decoration: underline;
+  &:hover {
+    color: #ff6600;
+    @include transition(.7s);
+  }
+}
+.breadcrumbs-head{
+  font-family:OpenSans-Bold;
+  font-size:20px;
+  color: #333;
+}

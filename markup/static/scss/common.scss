@@ -1,0 +1,41 @@
+// Common styles of the project
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+}
+
+.page {
+    background: #f4f4f4;
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #333;
+}
+
+.page__wrapper {
+    min-width: 1120px;
+    min-height:100%;
+    margin-bottom:-220px;
+    &:after{
+        content: '';
+        display: block;
+        height: 200px;
+    }
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    @include clearfix();
+}
+.content{
+    margin-bottom:48px;
+}

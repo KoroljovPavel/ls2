@@ -1,0 +1,7 @@
+mixin navigation(data)
+    nav.navigation
+        .container
+            ul.navigation__list
+                each item, index in navigation.defaults
+                    li(class="navigation__item" + ((index == 1) ? " active" : ''))
+                        a(href="#").navigation__link #{item.title}

@@ -1,0 +1,996 @@
+mixin main(data)
+    main.maincontent
+        section.sort
+            .sort__question Сортировать по
+            .sort__select_new
+                .sort__select_box по цене
+                ul.sort__select_dropdown
+                    li.sort__select_item по цене
+                    li.sort__select_item по популярности
+            .tabs
+                .tabs__question Вид каталога
+                ul.tabs__controls
+                    li.tabs__controls_item.active
+                        a(href="#").tabs__controls_link.tabs__controls_link-column
+                    li.tabs__controls_item
+                        a(href="#").tabs__controls_link.tabs__controls_link-coub
+                    li.tabs__controls_item
+                        a(href="#").tabs__controls_link.tabs__controls_link-line
+        section.content
+            ul.tabs__list
+                li.tabs__item.tabs__item_first.active
+                    ul.content__list
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  189238
+                                .content__wrap
+                                    h5.content__header Samsung GT-I9301I GALAXY S 3
+                                    .content__info
+                                        | Смартфон Samsung GT-I9301I GALAXY S 3 Ceramic White
+                                        | Моноблок, Micro-SIM, Android 4.4, 3G, Bluetooth 4.0, EDGE, GPRS, WAP, Wi-Fi, Количество ядер процессора 4, Частота процессора 1400 МГц...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 11 290
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  283135
+                                .content__wrap
+                                    h5.content__header Microsoft Lumia 640 RM-1077
+                                    .content__info
+                                        | Вместе с новой Microsoft Lumia 640 Dual SIM (RM-1077) вы открываете мир ярких цифровых возможностей. Этот многофункциональный смартфон уже содержит набор бесплатных сервисов Microsoft...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 10 990
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  189238
+                                .content__wrap
+                                    h5.content__header Archos 50 Oxygen Plus
+                                    .content__info
+                                        | Смартфон Archos 50 Oxygen Plus, серый. Моноблок, Micro-SIM, Android , 3G, Bluetooth, USB-подключение к ПК, Wi-Fi, Разрешение основной камеры 8 Мп...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 9 900
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  189238
+                                .content__wrap
+                                    h5.content__header Samsung GT-I9301I GALAXY S 3
+                                    .content__info
+                                        | Смартфон Samsung GT-I9301I GALAXY S 3 Ceramic White
+                                        | Моноблок, Micro-SIM, Android 4.4, 3G, Bluetooth 4.0, EDGE, GPRS, WAP, Wi-Fi, Количество ядер процессора 4, Частота процессора 1400 МГц...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 11 290
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  283135
+                                .content__wrap
+                                    h5.content__header Microsoft Lumia 640 RM-1077
+                                    .content__info
+                                        | Вместе с новой Microsoft Lumia 640 Dual SIM (RM-1077) вы открываете мир ярких цифровых возможностей. Этот многофункциональный смартфон уже содержит набор бесплатных сервисов Microsoft...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 10 990
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  189238
+                                .content__wrap
+                                    h5.content__header Archos 50 Oxygen Plus
+                                    .content__info
+                                        | Смартфон Archos 50 Oxygen Plus, серый. Моноблок, Micro-SIM, Android , 3G, Bluetooth, USB-подключение к ПК, Wi-Fi, Разрешение основной камеры 8 Мп...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 9 900
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  189238
+                                .content__wrap
+                                    h5.content__header Samsung GT-I9301I GALAXY S 3
+                                    .content__info
+                                        | Смартфон Samsung GT-I9301I GALAXY S 3 Ceramic White
+                                        | Моноблок, Micro-SIM, Android 4.4, 3G, Bluetooth 4.0, EDGE, GPRS, WAP, Wi-Fi, Количество ядер процессора 4, Частота процессора 1400 МГц...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 11 290
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  283135
+                                .content__wrap
+                                    h5.content__header Microsoft Lumia 640 RM-1077
+                                    .content__info
+                                        | Вместе с новой Microsoft Lumia 640 Dual SIM (RM-1077) вы открываете мир ярких цифровых возможностей. Этот многофункциональный смартфон уже содержит набор бесплатных сервисов Microsoft...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 10 990
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/3.jpg" alt="iPhome").slideshow__pic_img
+                                    .articul
+                                        .articul__text Артикул
+                                        span.articul__span  189238
+                                .content__wrap
+                                    h5.content__header Archos 50 Oxygen Plus
+                                    .content__info
+                                        | Смартфон Archos 50 Oxygen Plus, серый. Моноблок, Micro-SIM, Android , 3G, Bluetooth, USB-подключение к ПК, Wi-Fi, Разрешение основной камеры 8 Мп...
+                                    .ranking
+                                        ul.ranking__list
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                            li.ranking__item
+                                                <span class="star"></span>
+                                        .ranking__calc
+                                            span.ranking__calc_item 4
+                                .price 9 900
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                li.tabs__item.tabs__item_second
+                    ul.content__list
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Samsung GT-I9301I GALAXY S 3
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 1
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Белый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Android
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right Есть
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 11 290
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Microsoft Lumia 640 RM-1077
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 2
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Белый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Windows Phone
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right A-GPS
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 10 990
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Archos 50 Oxygen Plus
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 2
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Серый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Android
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right Есть
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 9 900
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Samsung GT-I9301I GALAXY S 3
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 1
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Белый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Android
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right Есть
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 11 290
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Microsoft Lumia 640 RM-1077
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 2
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Белый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Windows Phone
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right A-GPS
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 10 990
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Archos 50 Oxygen Plus
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 2
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Серый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Android
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right Есть
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 9 900
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AppleiPhone6s16GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Samsung GT-I9301I GALAXY S 3
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 1
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Белый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Android
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right Есть
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 11 290
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/AsusZenfone2ZE551ML64GB/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Microsoft Lumia 640 RM-1077
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 2
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Белый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Windows Phone
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right A-GPS
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 10 990
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                        li.content__item
+                            article.content__item_article
+                                .slideshow
+                                    .slideshow__display
+                                        img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhone").slideshow__display_img
+                                    ul.slideshow__list
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/1.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/2.jpg" alt="iPhome").slideshow__pic_img
+                                        li.slideshow__item
+                                            a(href="#").slideshow__pic
+                                                img(src="%=staticPrefix=%img/content/slides/HighscreenHercules/3.jpg" alt="iPhome").slideshow__pic_img
+                                h5.content__header Archos 50 Oxygen Plus
+                                ul.character__list
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Тип SIM-карты
+                                        span.character__item_span.character__item_span-right Micro-SIM
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Количество SIM-карт
+                                        span.character__item_span.character__item_span-right 2
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Цвет
+                                        span.character__item_span.character__item_span-right Серый
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left ОC
+                                        span.character__item_span.character__item_span-right Android
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left Связь 3G
+                                        span.character__item_span.character__item_span-right Есть
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left 4G (LTE)
+                                        span.character__item_span.character__item_span-right Нет
+                                    li.character__item
+                                        span.character__item_span.character__item_span-left GPS-модуль
+                                        span.character__item_span.character__item_span-right Есть
+                                .ranking
+                                    ul.ranking__list
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                        li.ranking__item
+                                            <span class="star"></span>
+                                    .ranking__calc
+                                        span.ranking__calc_item 4
+                                .price 9 900
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                li.tabs__item.tabs__item_third
+                    ul.content__list
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  189238
+                                h5.content__header Samsung GT-I9301I GALAXY S 3
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 11 290
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  283135
+                                h5.content__header Смартфон Microsoft Lumia 640 RM-1077
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 10 990
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  189238
+                                h5.content__header Смартфон Archos 50 Oxygen Plus
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 9 900
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  189238
+                                h5.content__header Samsung GT-I9301I GALAXY S 3
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 11 290
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  283135
+                                h5.content__header Смартфон Microsoft Lumia 640 RM-1077
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 10 990
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  189238
+                                h5.content__header Смартфон Archos 50 Oxygen Plus
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 9 900
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  189238
+                                h5.content__header Samsung GT-I9301I GALAXY S 3
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 11 290
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  283135
+                                h5.content__header Смартфон Microsoft Lumia 640 RM-1077
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 10 990
+                        li.content__item
+                            article.content__item_article
+                                .articul
+                                    .articul__text Артикул
+                                    span.articul__span  189238
+                                h5.content__header Смартфон Archos 50 Oxygen Plus
+                                .presence
+                                    span.presence__span В наличии
+                                    button(type="submit").to-basket В корзину
+                                .price 9 900
+
+        section.pagination
+            ul.pagination__list
+                li.pagination__item
+                    a(href="#").pagination__link.pagination__link_first
+                li.pagination__item
+                    a(href="#").pagination__link 1
+                li.pagination__item
+                    a(href="#").pagination__link 2
+                li.pagination__item
+                    a(href="#").pagination__link 3
+                li.pagination__item
+                    a(href="#").pagination__link.pagination__link_last

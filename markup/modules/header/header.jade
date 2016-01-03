@@ -1,0 +1,24 @@
+mixin header(data)
+    header.page__header
+        section.header-top
+            .container
+                ul.social__list
+                    each item in header.social
+                        li.social__item
+                            a(href="#{item.url}" target="_blank" class="social__link social__link_#{item.class}")
+                .contact-us
+                    a(href="#").contact-us__addres ул.Маяковсая 6, офис 17
+                    a(href="tel:+79211231213").contact-us__phone +7 (921) 123-12-13
+        section.header-bottom
+            .container
+                h1.header-title
+                    a(href="#").header-title__link
+                        img(src="%=staticPrefix=%img/assets/header/logo.png", alt="COOLTECH").header-title__logo
+                form(action="#" method="get").search-form
+                    label.search-form__label
+                        input(type="search" placeholder="Что будем искать").search-form__input
+                    button(type="submit").search-form__button Найти
+                ul.user-buttons__list
+                    each item in header.links
+                        li.user-buttons__item
+                            a(href="#").user-buttons__link #{item.title}

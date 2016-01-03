@@ -1,0 +1,107 @@
+mixin sidebar(data)
+    aside.sidebar
+        ul.user-price-select__list
+            li.user-price-select__item
+                a(href="#").user-price-select__link Флагманы
+            li.user-price-select__item
+                a(href="#").user-price-select__link Бюджетная линейка
+        ul.accordeon__list
+            li.accordeon__item
+                h4.accordeon__trigger Наличие в магазинах
+                ul.accordeon-inner
+                    li.accordeon-inner__item
+                        input(type="radio" name="magazine" id="magazine-first" hidden).accordeon-inner__radio
+                        label(for="magazine-first").accordeon-inner__label_radio Во всех магазинах
+                    li.accordeon-inner__item
+                        input(type="radio" name="magazine" id="magazine-second" hidden).accordeon-inner__radio
+                        label(for="magazine-second").accordeon-inner__label_radio В ближайшем ко мне магазине
+            li.accordeon__item
+                h4.accordeon__trigger Бренды
+                ul.accordeon-inner
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="model" id="model-one" hidden).accordeon-inner__checkbox
+                        label(for="model-one").accordeon-inner__label_checkbox Lenovo
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="model" id="model-two" hidden).accordeon-inner__checkbox
+                        label(for="model-two").accordeon-inner__label_checkbox Apple
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="model" id="model-three" hidden).accordeon-inner__checkbox
+                        label(for="model-three").accordeon-inner__label_checkbox Samsung
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="model" id="model-four" hidden).accordeon-inner__checkbox
+                        label(for="model-four").accordeon-inner__label_checkbox Asus
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="model" id="model-five" hidden).accordeon-inner__checkbox
+                        label(for="model-five").accordeon-inner__label_checkbox Motorola
+                    li.accordeon-inner__item
+                        a(href="#").accordeon-inner__link_reset Сбросить фильтр
+            li.accordeon__item
+                h4.accordeon__trigger Цена
+                //Добавить jquery ui slider
+                ul.accordeon-inner
+                    li.accordeon-inner__item
+                        label(for="minCost") от
+                        input(type="text" id="minCost" class="price-input" value="0")
+                        label(for="maxCost").price-label до
+                        input(type="text" id="maxCost" class="price-input" value="100000")
+                        #slider
+            li.accordeon__item
+                h4.accordeon__trigger Цвет
+                ul.accordeon-inner
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="white" hidden).accordeon-inner__input_color
+                        label(for="white").accordeon-inner__item_color-label.accordeon-inner__color_white
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="gray" hidden).accordeon-inner__input_color
+                        label(for="gray").accordeon-inner__item_color-label.accordeon-inner__color_gray
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="black" hidden).accordeon-inner__input_color
+                        label(for="black").accordeon-inner__item_color-label.accordeon-inner__color_black
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="blue" hidden).accordeon-inner__input_color
+                        label(for="blue").accordeon-inner__item_color-label.accordeon-inner__color_blue
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="red" hidden).accordeon-inner__input_color
+                        label(for="red").accordeon-inner__item_color-label.accordeon-inner__color_red
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="yellow" hidden).accordeon-inner__input_color
+                        label(for="yellow").accordeon-inner__item_color-label.accordeon-inner__color_yellow
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="orange" hidden).accordeon-inner__input_color
+                        label(for="orange").accordeon-inner__item_color-label.accordeon-inner__color_orange
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="green" hidden).accordeon-inner__input_color
+                        label(for="green").accordeon-inner__item_color-label.accordeon-inner__color_green
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="cyan" hidden).accordeon-inner__input_color
+                        label(for="cyan").accordeon-inner__item_color-label.accordeon-inner__color_cyan
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="purple" hidden).accordeon-inner__input_color
+                        label(for="purple").accordeon-inner__item_color-label.accordeon-inner__color_purple
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="pink" hidden).accordeon-inner__input_color
+                        label(for="pink").accordeon-inner__item_color-label.accordeon-inner__color_pink
+                    li.accordeon-inner__item_color
+                        input(type="radio" name="color" id="crimson" hidden).accordeon-inner__input_color
+                        label(for="crimson").accordeon-inner__item_color-label.accordeon-inner__color_crimson
+            li.accordeon__item
+                h4.accordeon__trigger Операционные системы
+                ul.accordeon-inner
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="os" id="os-one" hidden).accordeon-inner__checkbox
+                        label(for="os-one").accordeon-inner__label_checkbox Android
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="os" id="os-two" hidden).accordeon-inner__checkbox
+                        label(for="os-two").accordeon-inner__label_checkbox iOS
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="os" id="os-three" hidden).accordeon-inner__checkbox
+                        label(for="os-three").accordeon-inner__label_checkbox Windows Mobile
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="os" id="os-four" hidden).accordeon-inner__checkbox
+                        label(for="os-four").accordeon-inner__label_checkbox Symbian
+                    li.accordeon-inner__item
+                        input(type="checkbox" name="os" id="os-five" hidden).accordeon-inner__checkbox
+                        label(for="os-five").accordeon-inner__label_checkbox Custom
+
+                    li.accordeon-inner__item
+                        a(href="#").accordeon-inner__link_reset Сбросить фильтр
